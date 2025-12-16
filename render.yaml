@@ -18,3 +18,7 @@ services:
         generateValue: true
       - key: WEB_CONCURRENCY
         value: 4
+      - key: EMAIL_HOST_USER
+        value: vinay.agiletec@gmail.com
+      - key: EMAIL_HOST_PASSWORD
+        sync: false  # Set this manually in Render dashboard for security
